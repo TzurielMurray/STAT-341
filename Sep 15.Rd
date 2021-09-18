@@ -11,6 +11,6 @@ plot(pts, dt(pts, df = 17), col = "red", type = "l")
 lines(density(x), col = "green")
 lines(density(y), col = "blue")
 
-# Apply t-test fuction as follows
+# Apply t-test function as follows
 
 ttest = t.test(x,y)
